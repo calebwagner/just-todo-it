@@ -1,8 +1,9 @@
+import { Content } from "./components/layout/Content";
+// import { Header } from "./components/layout/Header";
+
 export const App = () => (
   // implicit return so no "return" statement
   <div className="App">
-    <header className="App-header">
-      <h1>Hello There!</h1>
-    </header>
+    <Content />
   </div>
 );
